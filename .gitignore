@@ -1,0 +1,21 @@
+# --- 隱藏核心原始碼 ---
+src/
+
+# --- 隱藏相依套件 ---
+node_modules/
+dist-ssr
+*.local
+
+# --- 隱藏環境變數與金鑰 ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- 隱藏編譯輸出 (如果你要手動上傳 index.html 到根目錄，請保留此項) ---
+# dist/ 
+
+# --- 作業系統產生的雜物 ---
+.DS_Store
+Thumbs.db
